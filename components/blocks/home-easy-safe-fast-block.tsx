@@ -38,47 +38,54 @@ export default function EasySafeFastBlock() {
             </Heading>
             <div className="z-10 -mt-16 flex w-full flex-col gap-5 bg-blue-shadow-gradient shadow-on-blue-header-sm sm:-mt-24 sm:aspect-square sm:shadow-on-blue-header-xl">
               <Card className="grid flex-1 grid-cols-1 p-5 backdrop-blur-xl sm:aspect-2/1 sm:grid-flow-col sm:grid-cols-2 sm:p-7.5 lg:aspect-auto xl:p-10">
-                <Heading
-                  as="h3"
-                  size="48"
-                  className="mb-5 max-w-[8ch] text-2xl sm:mb-0"
-                >
-                  How do payments work?
-                </Heading>
-                <Text
-                  size="18"
-                  className="order-last mt-2.5 max-w-[36ch] text-sm sm:order-none sm:mt-auto"
-                >
-                  Watch this video find out how our payment experience is simple and fast 
-                </Text>
-
-                <div className="row-span-2 aspect-square overflow-hidden rounded-md sm:aspect-auto sm:rounded-lg">
-                  <PopUpVideoPlayer
-                    url="https://www.youtube.com/watch?v=hLLwKuP2huw"
-                    title="How do payments work"
-                    description="See how CarbonNexus system process payments"
-                    thumbnail={{ src: "/payment-video-thumb.png" }}
-                  />
-                </div>
-              </Card>
+                  <Heading
+                    as="h3"
+                    size="48"
+                    className="mb-5 max-w-[8ch] text-2xl sm:mb-0"
+                  >
+                    How does our Klimata™ Engine work?
+                  </Heading>
+                  <Text
+                    size="18"
+                    className="order-last mt-2.5 max-w-[36ch] text-sm sm:order-none sm:mt-auto"
+                  >
+                    Watch this short overview to see how we turn raw satellite data into financial-grade truth.
+                  </Text>
+                  <div className="row-span-2 aspect-square overflow-hidden rounded-md sm:aspect-auto sm:rounded-lg">
+                    <PopUpVideoPlayer
+                      url="https://www.youtube.com/watch?v=hLLwKuP2huw"
+                      title="How does our Klimata™ Engine work"
+                      description="See how CarbonNexus turns satellite data into financial-grade truth"
+                      thumbnail={{ src: "/payment-video-thumb.png" }}
+                    />
+                  </div>
+                </Card>
               <div className="flex flex-1 flex-col gap-5 lg:flex-row">
                 <Card className="flex aspect-square flex-1 flex-col lg:aspect-auto">
-                  <div className="flex flex-1 flex-col">
+                  {/* <div className="flex flex-1 flex-col">
                     <InfinityMarque>
-                      {/*see the data-providers/supported-coins.ts*/}
                       <BTCicon className="aspect-square flex-1 rounded-full" />
                       <ETHicon className="aspect-square flex-1 rounded-full" />
                       <USDTicon className="aspect-square flex-1 rounded-full" />
                       <EURicon className="aspect-square flex-1 rounded-full" />
                     </InfinityMarque>
-                  </div>
+                  </div> */}
+                   {/* <div className="relative order-first flex-1 sm:order-last">
+                    <Image
+                      src="/e-commerce-cover.png"
+                      alt="IVPAY Ecommerce integrations"
+                      fill
+                      quality={75}
+                      sizes="50vw"
+                      className="object-cover object-right-bottom sm:object-left-top"
+                    />
+                  </div> */}
                   <div className="p-5 pt-0 sm:p-7.5 sm:pt-0 xl:p-10 xl:pt-0">
                     <Heading as="h3" size="32" className="mb-1.5 sm:mb-2">
-                      Get paid your way
+                      Technological Supremacy
                     </Heading>
                     <Text size="24" className="max-w-[28ch]">
-                      Pick your preferred currency. Keep it in crypto or
-                      instantly convert it to fiat.
+                      Our Klimata™ Engine provides a level of speed, scale, and accuracy that traditional, manual consulting and auditing simply cannot match.
                     </Text>
                   </div>
                 </Card>
@@ -86,7 +93,7 @@ export default function EasySafeFastBlock() {
                   <div className="relative order-first flex-1 sm:order-last">
                     <Image
                       src="/e-commerce-cover.png"
-                      alt="CarbonNexus Ecommerce integrations"
+                      alt="IVPAY Ecommerce integrations"
                       fill
                       quality={75}
                       sizes="50vw"
@@ -95,10 +102,11 @@ export default function EasySafeFastBlock() {
                   </div>
                   <div className="p-5 pt-0 sm:p-7.5 xl:p-10">
                     <Heading as="h3" size="32" className="my-1.5 sm:mb-2">
-                      You control your money
+                      Business-Focused Outcomes
                     </Heading>
                     <Text size="24" className="max-w-[28ch]">
-                      Withdraw in crypto or fiat at any time
+                     We help you secure multi-million dollar export contracts, unlock green loans, or generate new revenue from carbon credits.
+
                     </Text>
                   </div>
                 </Card>
