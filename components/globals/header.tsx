@@ -11,6 +11,7 @@ import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs"
 import Link from "next/link";
 import { MotionTriggerWrapper } from "../motion/motionTriggerWrapper";
 import { MotionWrapper } from "../motion/motion-wrapper";
+import { useClerk } from "@clerk/nextjs";
 
 const Header = React.forwardRef<
   HTMLDivElement,
@@ -18,6 +19,7 @@ const Header = React.forwardRef<
 >(({ className, ...props }, forwardRef) => {
   const [isMobile, setIsMobile] = React.useState<boolean | null>(null);
   const isMobileQuery = useMediaQuery("(min-width: 1024px)");
+    const { user } = useClerk();
 
   React.useEffect(() => {
     setIsMobile(isMobileQuery);
@@ -48,17 +50,17 @@ const Header = React.forwardRef<
                 <div className="pointer-events-auto flex justify-end space-x-2 lg:w-60 ">
                   <Button asChild variant="white">
                     {/*//TODO: MAKE IT VAR */}
-                    <Link href="https://app.carbonnexus.io/login">
+                    <Link href="/auth/sign-in">
                       Log In
                     </Link>
                   </Button>
                   <Button asChild>
-                    <Link href="https://app.carbonnexus.io/register">
+                    <Link href="/auth/sign-up">
                       Sign Up
                     </Link>
                   </Button>
                 </div>
-                <SignedOut>
+                {/* <SignedOut>
                   <SignInButton>
                     <Button
                     >
@@ -72,7 +74,7 @@ const Header = React.forwardRef<
                       Explore Dashboard
                     </Link>
                   </div>
-                </SignedIn>
+                </SignedIn> */}
               </>
             
 
