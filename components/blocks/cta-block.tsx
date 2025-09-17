@@ -9,6 +9,7 @@ import { Icon } from "@/components/elements/icon";
 import { MotionWrapper } from "../motion/motion-wrapper";
 
 import { cn } from "@/lib/utils";
+import { Heading } from "../ui/heading";
 
 const CTABlock: React.FC<React.HTMLAttributes<HTMLElement>> = ({className}) => {
   return (

@@ -11,15 +11,16 @@ import { Toaster } from "@/components/ui/sonner";
 
 import Gleap from 'gleap';
 import { GleapInit } from "@/components/globals/gleap";
+import { ClerkProvider } from "@clerk/nextjs";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ivpay.io'),
+  metadataBase: new URL('https://carbonnexus.io/'),
   title: "CarbonNexus | The Intelligence Layer for ASEAN's Green Economy",
   description: "CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine. Targeted solutions for sustainable agriculture, deforestation-free supply chains, and nature-based solutions.",
   openGraph: {
     title: "CarbonNexus | The Intelligence Layer for ASEAN's Green Economy",
     description:
-    "CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine. Targeted solutions for sustainable agriculture, deforestation-free supply chains, and nature-based solutions.",
+      "CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine. Targeted solutions for sustainable agriculture, deforestation-free supply chains, and nature-based solutions.",
     type: "website",
     url: "https://carbonnexus.io/",
     siteName: "CarbonNexus"
@@ -52,14 +53,17 @@ export default function RootLayout({
 }>) {
   return (
     <LazyMotionWrapper>
+
+
+
       <html lang="en" className={`${nohemi.variable}`}>
         <body className="relative">
-          <Header />
-          {children}
-          <SpeedInsights />
-          <Footer />
-          <Toaster/>
-          <GleapInit/>
+          <ClerkProvider>   <Header />
+            {children}
+            <SpeedInsights />
+            <Footer />
+            <Toaster />
+            <GleapInit /></ClerkProvider>
         </body>
       </html>
     </LazyMotionWrapper>
