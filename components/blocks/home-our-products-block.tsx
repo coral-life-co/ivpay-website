@@ -16,7 +16,7 @@ export default function OurProductsBlock() {
             size="64"
             className="mb-0 ml-auto mr-3 max-w-[18ch] text-right sm:mb-5 sm:mr-6"
           >
-            Our powerful tools
+            Targeted Solutions for Critical ASEAN Verticals
           </Heading>
           <ScrollStackedCard backgroundColor="bg-blue-94">
             {productsList

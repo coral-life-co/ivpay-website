@@ -62,7 +62,7 @@ export default function ECommerceBenefitsBlock() {
                   
                   className="ml-auto max-w-min whitespace-nowrap"
                 >
-                  <Link href="https://www.opencart.com/index.php?route=marketplace/extension&filter_search=ivpay">
+                  <Link href="https://www.opencart.com/index.php?route=marketplace/extension&filter_search=carbonnexus">
                     Download <Icon icon="Download" />
                   </Link>
                 </Button>

@@ -9,14 +9,14 @@ import { getProduct, productsList } from "@/components/data-providers/products-p
 const product = getProduct(productsList, "api");
 
 export const metadata: Metadata = {
-  title: "IVPAY | " + product.label,
+  title: "CarbonNexus | " + product.label,
   description: product.SEOdescription? product.SEOdescription : product.description,
   openGraph: {
-    title: "IVPAY | " + product.label,
+    title: "CarbonNexus | " + product.label,
     description:
       product.SEOdescription? product.SEOdescription : product.description,
     type: "website",
-    url: "https://ivpay.io/api",
+    url: "https://carbonnexus.io/api",
   },
   twitter: {
     card: 'summary_large_image',

@@ -29,7 +29,7 @@ export default function TogetherWithUsBlock() {
             Together with Us
           </Heading>
           <Text size="32" className="max-w-[24ch]">
-            IVPAY already operates in more than 400 locations in
+            CarbonNexus already operates in more than 400 locations in
             {/* Use &nbsp; because the regular spaces will be deleted by AnimatedText */}
             <span className="whitespace-nowrap">
             &nbsp;{countryData.length}&nbsp;
@@ -45,11 +45,20 @@ export default function TogetherWithUsBlock() {
           </div>
         </MotionWrapper>
           <div className="absolute bottom-0 flex w-full flex-col items-center gap-2 sm:gap-4">
-            <Text className="leading-tighten text-center text-3xl capitalize sm:text-4xl xl:text-6xl mb-5">
-              Become<br aria-hidden/>part of<br aria-hidden/>IVPAY
+            
+             <Heading
+              as="h2"
+              size="64"
+              className="z-10 mb-6 text-center"
+            >
+                   Become part of CarbonNexus
+          
+            </Heading>
+             <Text className="z-10 mb-10 text-center text-lg max-w-3xl mx-auto">
+              Whether you are looking to de-risk your operations or seize the opportunities of the new climate economy, our team is ready to be your intelligence partner. Contact us to discuss your specific needs.
             </Text>
             <Button size="xl" asChild>
-              <Link href="https://app.ivpay.io/register">Get started</Link>
+              <Link href="https://app.carbonnexus.io/register">Get started</Link>
             </Button>
           </div>
         </div>

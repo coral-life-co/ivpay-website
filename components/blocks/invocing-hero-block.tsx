@@ -22,7 +22,7 @@ export default function InvocingHeroBlock() {
               Generate and send invoices in real-time
             </>
           }
-          heroImage={{ src: "/product-invoicing.png", alt: "IVPAY invoicing solution" }}
+          heroImage={{ src: "/product-invoicing.png", alt: "CarbonNexus invoicing solution" }}
           action={
             <>
               <StackedCardsFan>
@@ -38,7 +38,7 @@ export default function InvocingHeroBlock() {
                   ))}
               </StackedCardsFan>
               <Button asChild size="lg" variant="default">
-                <Link href="https://app.ivpay.io/register">
+                <Link href="https://app.carbonnexus.io/register">
                   Get Started
                 </Link>
               </Button>

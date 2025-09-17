@@ -17,17 +17,17 @@ export const roadmapList: readonly RoadmapQuarterType[] = [
         items: [
             {
                 id: "tocken",
-                title: "$IVPAY Token",
+                title: "$CarbonNexus Token",
                 list: [
                     'Will be available on the TON blockchain'
                 ]
             },
             {
                 id: "family",
-                title: "IVPAY family",
+                title: "CarbonNexus family",
                 list: [
                     "A volunteer program for anyone in the community who wants to get involved",
-                    "Country-specific community managers for IVPAY",
+                    "Country-specific community managers for CarbonNexus",
                     "Grants Program (ecosystem funds)",
                     "KOLs (Key Opinion Leaders) will participate in internal surveys and ratings, with the top ones getting rewards"
                 ]
@@ -98,17 +98,17 @@ export const roadmapList: readonly RoadmapQuarterType[] = [
                 title: "Social FI: Platform for crypto projects",
                 list: [
                     "Crypto projects register on our platform, complete tasks, and earn points.",
-                    "Holding $IVPAY Tokens: Points awarded based on the number of $IVPAY tokens held.",
-                    "Social Media Activities: Points for reposts, giveaways, and videos mentioning $IVPAY.",
-                    "Paying with $IVPAY Tokens: Points for transactions using $IVPAY."
+                    "Holding $CarbonNexus Tokens: Points awarded based on the number of $CarbonNexus tokens held.",
+                    "Social Media Activities: Points for reposts, giveaways, and videos mentioning $CarbonNexus.",
+                    "Paying with $CarbonNexus Tokens: Points for transactions using $CarbonNexus."
                 ]
             },
             {
                 id: "benefits",
                 title: "Benefits for Participants",
                 list: [
-                    "Free Listing: Top project receives a free listing on IVPAY.",
-                    "Increased Visibility: Active engagement with IVPAY community increases project visibility.",
+                    "Free Listing: Top project receives a free listing on CarbonNexus.",
+                    "Increased Visibility: Active engagement with CarbonNexus community increases project visibility.",
                     "Attracting Investors: High leaderboard positions attract potential investors and partners."
                 ]
             },

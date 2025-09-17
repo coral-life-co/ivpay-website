@@ -46,7 +46,7 @@ export default function EcosystemHeroBlock() {
               <div className="z-20 flex w-full flex-col gap-5 p-5 text-background lg:grid-cols-3">
                 <div className="rounded-md border border-border/50 bg-background/20 p-5 shadow-xl shadow-darkshade/20 backdrop-blur-md xl:rounded-lg">
                   <div className="flex justify-between">
-                    <Text className="ml-2">$IVPAY Contract (BEP-20)</Text>
+                    <Text className="ml-2">$CarbonNexus Contract (BEP-20)</Text>
                     <Text className="group relative whitespace-nowrap">
                       <Link href="https://bscscan.com/address/0xDE5BDcbd4d7dFa86E527fEF9971bd6Ca6A76eefB">
                         Check{" "}
@@ -66,33 +66,33 @@ export default function EcosystemHeroBlock() {
                   </Text>
                 </div>
                 <div className="flex flex-col rounded-md border border-border/50 bg-background/20 p-5 shadow-xl shadow-darkshade/20 backdrop-blur-md lg:flex-row xl:rounded-lg">
-                  <Text className="ml-2">$IVPAY Markets</Text>
+                  <Text className="ml-2">$CarbonNexus Markets</Text>
                   <div className="mt-4 flex flex-wrap gap-5 lg:ml-auto">
-                    <Link href="https://www.gate.io/trade/IVPAY_USDT">
+                    <Link href="https://www.gate.io/trade/CarbonNexus_USDT">
                       <Icon
                         icon="GateIo"
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"
                       />
                     </Link>
-                    <Link href="https://www.mexc.com/exchange/IVPAY_USDT">
+                    <Link href="https://www.mexc.com/exchange/CarbonNexus_USDT">
                       <Icon
                         icon="MEXC"
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"
                       />
                     </Link>
-                    <Link href="https://www.bitget.com/spot/IVPAYUSDT">
+                    <Link href="https://www.bitget.com/spot/CarbonNexusUSDT">
                       <Icon
                         icon="Bitget"
                         className="aspect-square h-12 rounded-md bg-white shadow-lg shadow-accent/20"
                       />
                     </Link>
-                    <Link href="https://bingx.com/en-us/spot/IVPAYUSDT">
+                    <Link href="https://bingx.com/en-us/spot/CarbonNexusUSDT">
                       <Icon
                         icon="BingX"
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"
                       />
                     </Link>
-                    <Link href="https://whitebit.com/trade/IVPAY_USDT">
+                    <Link href="https://whitebit.com/trade/CarbonNexus_USDT">
                       <Icon
                         icon="WhiteBit"
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"
@@ -104,7 +104,7 @@ export default function EcosystemHeroBlock() {
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"
                       />
                     </Link>
-                    <Link href="https://changelly.com/exchange/ivpay">
+                    <Link href="https://changelly.com/exchange/carbonnexus">
                       <Icon
                         icon="Changelly"
                         className="aspect-square h-12 rounded-md shadow-lg shadow-accent/20"

@@ -7,15 +7,15 @@ import AboutTeamBlock from "@/components/blocks/about-team-block";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IVPAY | About",
+  title: "CarbonNexus | About",
   description:
-    "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+    "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
   openGraph: {
-    title: "IVPAY | About",
+    title: "CarbonNexus | About",
     description:
-      "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+      "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
     type: "website",
-    url: "https://ivpay.io/about",
+    url: "https://carbonnexus.io/about",
   },
   twitter: {
     card: 'summary_large_image',

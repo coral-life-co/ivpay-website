@@ -59,7 +59,7 @@ export async function POST(request: Request) {
   Subject: ${topic}
   Message: ${message}
   
-  This message was sent from [IVPAY] 
+  This message was sent from [CarbonNexus] 
   `.trim();
 
   // HTML for SendGrid
@@ -70,7 +70,7 @@ export async function POST(request: Request) {
   <b>Subject:</b> ${escapeHTML(topic)}<br>
   <b>Message:</b> ${escapeHTML(message)}<br>
   <br>
-  This message was sent from <i>IVPAY</i>
+  This message was sent from <i>CarbonNexus</i>
   `.trim();
 
   // /n indead of <br> for Telegram
@@ -81,13 +81,13 @@ export async function POST(request: Request) {
   <b>Subject:</b> ${escapeHTML(topic)}
   <b>Message:</b> ${escapeHTML(message)}
   
-  This message was sent from <i>IVPAY</i>
+  This message was sent from <i>CarbonNexus</i>
   `.trim();
 
   // Send email using SendGrid
   const msg = {
-    to: ['support@ivpay.io', email],
-    from: 'support@ivpay.io',
+    to: ['support@carbonnexus.io', email],
+    from: 'support@carbonnexus.io',
     subject: 'Request from the website',
     text: textdMessage,
     html: `<div style="font-family: Arial, sans-serif;">${htmlMessage}</div>`,

@@ -4,15 +4,15 @@ import GetInTouchBlock from "@/components/blocks/get-in-touch-block";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IVPAY | Contact Us",
+  title: "CarbonNexus | Contact Us",
   description:
-    "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+    "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
     openGraph: {
-      title: "IVPAY | Contact Us",
+      title: "CarbonNexus | Contact Us",
       description:
-        "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+        "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
       type: "website",
-      url: "https://ivpay.io/contact",
+      url: "https://carbonnexus.io/contact",
     },
     twitter: {
       card: 'summary_large_image',

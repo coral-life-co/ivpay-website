@@ -6,15 +6,15 @@ import EcosystemRoadmapBlock from "@/components/blocks/ecosytem-roadmap-block";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IVPAY | Ecosystem",
+  title: "CarbonNexus | Ecosystem",
   description:
-    "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+    "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
     openGraph: {
-      title: "IVPAY | Ecosystem",
+      title: "CarbonNexus | Ecosystem",
       description:
-       "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+       "Learn about CarbonNexus, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
       type: "website",
-      url: "https://ivpay.io/ecosystem",
+      url: "https://carbonnexus.io/ecosystem",
     },
     twitter: {
       card: 'summary_large_image',

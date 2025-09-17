@@ -100,16 +100,16 @@ const config = {
   			'soft-gradient': 'linear-gradient(to bottom, transparent 0%, hsl(var(--blue-94)) 75%, hsl(var(--blue-94)) 100%)',
 			'text-gradient': 'linear-gradient(to bottom, hsl(var(--background)) 0%, hsl(var(--blue-94)) 80%)',
   			'soft-gradient-reverse': 'linear-gradient(to top, transparent 0%, hsl(var(--blue-94)) 75%, hsl(var(--blue-94)) 100%)',
-  			'blue-shadow-gradient': 'radial-gradient(closest-side, hsla(235, 100%, 60%, 0.25) 0%, hsla(235, 100%, 60%, 0) 100%)',
+  			'blue-shadow-gradient': 'radial-gradient(closest-side, hsla(147, 89%, 83%, 0.25) 0%, hsla(235, 100%, 60%, 0) 100%)',
   			'white-shadow-gradient': 'radial-gradient(closest-side, hsla(0, 0%, 100%, 0.5) 0%, hsla(0, 0%, 100%, 0.25) 60%, hsla(0, 0%, 100%, 0) 100%)',
-  			'hero-gradient': 'linear-gradient(to bottom, hsla(234, 100%, 80%, 0) 0%, hsla(234, 100%, 80%, 0.2) 20%, hsla(235, 100%, 80%, 0.8) 80%, hsla(235, 100%, 75%, 0.8) 100%), radial-gradient(ellipse 100% 100% at bottom left, hsl(var(--accent)) 10%, transparent 50%), radial-gradient(ellipse 100% 100% at bottom right, hsl(var(--accent)) 10%, transparent 50%), radial-gradient(ellipse 100% 100% at center, hsl(var(--background)) 20%, transparent 100%)',
-			'darkshade-gradient' : 'radial-gradient(closest-side, hsla(235, 100%, 60%, 0.2) 0%, hsla(235, 100%, 60%, 0) 80%), linear-gradient(to bottom, hsl(var(--darkshade)) 0%, hsl(var(--accent)) 100%)',
+  			'hero-gradient': 'linear-gradient(to bottom, hsla(234, 100%, 80%, 0) 0%, hsla(183, 100%, 80%, 0.20) 20%, hsla(146, 24%, 77%, 0.80) 80%, hsla(149, 35%, 78%, 0.80) 100%), radial-gradient(ellipse 100% 100% at bottom left, hsl(var(--accent)) 10%, transparent 50%), radial-gradient(ellipse 100% 100% at bottom right, hsl(var(--accent)) 10%, transparent 50%), radial-gradient(ellipse 100% 100% at center, hsl(var(--background)) 20%, transparent 100%)',
+			'darkshade-gradient' : 'radial-gradient(closest-side, hsla(154, 32%, 79%, 0.20) 0%, hsla(235, 100%, 60%, 0) 80%), linear-gradient(to bottom, hsl(var(--darkshade)) 0%, hsl(var(--accent)) 100%)',
   			'blue-gradient': 'radial-gradient(ellipse 90% 180% at top left, hsl(var(--accent)) 10%, transparent 100%), radial-gradient(ellipse 90% 180% at bottom right, hsl(var(--accent)) 10%, transparent 100%), linear-gradient(to bottom, hsla(235, 100%, 60%, 0.4) 0%, transparent 60px)'
   		},
   		boxShadow: {
   			'on-blue-header-sm': '0px -40px 40px -40px hsl(var(--accent))',
   			'on-blue-header-xl': '0px -60px 80px -80px hsl(var(--accent))',
-  			'card-shadow': '0 20px 25px -5px hsla(235, 80%, 60%, 0.15), 0 8px 10px -6px hsla(235, 80%, 60%, 0.2)'
+  			'card-shadow': '0 20px 25px -5px hsla(158, 80%, 60%, 0.15), 0 8px 10px -6px hsla(165, 70%, 61%, 0.20)'
   		},
   		keyframes: {
   			'accordion-down': {

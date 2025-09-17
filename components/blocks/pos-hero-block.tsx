@@ -26,7 +26,7 @@ export default function POSHeroBlock() {
               Payment Terminal
             </>
           }
-          heroImage={{ src: "/product-pos.png", alt: "IVPAY POS machine" }}
+          heroImage={{ src: "/product-pos.png", alt: "CarbonNexus POS machine" }}
           action={
             <>
               <StackedCardsFan>
@@ -42,7 +42,7 @@ export default function POSHeroBlock() {
                   ))}
               </StackedCardsFan>
               <Button asChild size="lg" variant="default">
-                <Link href="https://app.ivpay.io/register">
+                <Link href="https://app.carbonnexus.io/register">
                   Get Started
                 </Link>
               </Button>

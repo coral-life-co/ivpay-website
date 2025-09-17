@@ -27,7 +27,7 @@ export default function AppHeroBlock() {
             {appProduct?.description}
             </>
           }
-          heroImage={{ src: "/product-app.png", alt: "IVPAY mobile app" }}
+          heroImage={{ src: "/product-app.png", alt: "CarbonNexus mobile app" }}
           action={
             <>
               <StackedCardsFan>

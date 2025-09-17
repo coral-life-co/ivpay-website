@@ -56,7 +56,7 @@ export default function EasySafeFastBlock() {
                   <PopUpVideoPlayer
                     url="https://www.youtube.com/watch?v=hLLwKuP2huw"
                     title="How do payments work"
-                    description="See how IVPAY system process payments"
+                    description="See how CarbonNexus system process payments"
                     thumbnail={{ src: "/payment-video-thumb.png" }}
                   />
                 </div>
@@ -86,7 +86,7 @@ export default function EasySafeFastBlock() {
                   <div className="relative order-first flex-1 sm:order-last">
                     <Image
                       src="/e-commerce-cover.png"
-                      alt="IVPAY Ecommerce integrations"
+                      alt="CarbonNexus Ecommerce integrations"
                       fill
                       quality={75}
                       sizes="50vw"

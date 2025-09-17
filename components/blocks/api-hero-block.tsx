@@ -41,7 +41,7 @@ export default function APIHeroBlock() {
                   ))}
               </StackedCardsFan>
               <Button asChild size="lg" variant="default">
-                <Link href="https://docs.ivpay.io/">
+                <Link href="https://docs.carbonnexus.io/">
                   Documentation <Icon icon="ArrowUpRight" />
                 </Link>
               </Button>

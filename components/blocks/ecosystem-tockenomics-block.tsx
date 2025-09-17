@@ -48,7 +48,7 @@ export default function EcosystemTockenomicsBlock() {
               Tokenomics
             </Heading>
             <Text className="max-w-[32ch] text-left lg:text-right">
-              $IVPAY token offers a wide range of benefits, providing exclusive advantages for both merchants and users within our ecosystem
+              $CarbonNexus token offers a wide range of benefits, providing exclusive advantages for both merchants and users within our ecosystem
             </Text>
           </div>
           {/*

@@ -15,7 +15,7 @@ export default function VendingVideoBlock() {
                   //url="https://www.youtube.com/watch?v=o_T7irLRaQI"
                   url="https://www.youtube.com/watch?v=8u55Ni_STG0"
                   title="How our vendings work"
-                  description="See how use IVPAY vending machine"
+                  description="See how use CarbonNexus vending machine"
                   thumbnail={{ src: "/vending-video-thumb.png" }}
                 />
               </div>

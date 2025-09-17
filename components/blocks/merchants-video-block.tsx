@@ -17,13 +17,13 @@ export default function MerchantVideoBlock() {
                 size="64"
                 className="max-w-[18ch] px-5 py-4 text-background sm:px-10 sm:py-8"
               >
-                400+ Merchants use IVPAY every day
+                400+ Merchants use CarbonNexus every day
               </Heading>
               <div className="aspect-video w-full overflow-hidden rounded-t-lg shadow-on-blue-header-sm sm:rounded-t-2xl sm:shadow-on-blue-header-xl">
                 <PopUpVideoPlayer
                   url="https://www.youtube.com/watch?v=-p_F0t7b80M"
-                  title="How to use IVPAY"
-                  description="See how merchants use IVPAY"
+                  title="How to use CarbonNexus"
+                  description="See how merchants use CarbonNexus"
                   thumbnail={{ src: "/merchan-video-thumb.png" }}
                 />
               </div>

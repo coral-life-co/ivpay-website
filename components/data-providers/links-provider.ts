@@ -17,5 +17,5 @@ export function getLinkByID(id: LinkIDs): string | null {
 }
 
 export const linkProvider = [
-    { id: "IVPAY_LOGIN_URL", link: { url: "/" } },
+    { id: "CarbonNexus_LOGIN_URL", link: { url: "/" } },
 ] as const satisfies LinkProviderType

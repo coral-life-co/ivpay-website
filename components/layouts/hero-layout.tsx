@@ -29,6 +29,24 @@ const HeroLayout = React.forwardRef<HTMLDivElement, HeroLayoutType>(
               aria-hidden
               className="absolute inset-0 z-0 rounded-lg border-b border-l border-r border-background/50 bg-hero-gradient sm:rounded-xl xl:rounded-2xl"
             />
+            {/* <div className="absolute inset-0 rounded-lg border-b border-l border-r border-background/50 sm:rounded-xl xl:rounded-2xl bg-hero-gradient opacity-10">
+              <Image
+                src="/hero.jpg"
+                alt="Aerial view of a forest with a road cutting through it"
+                fill
+                className="object-cover opacity-10"
+                priority
+                quality={100}
+              />
+              <div
+                className="absolute inset-0"
+                style={{
+                  backgroundImage:
+                    "radial-gradient(circle at 100% 100%, rgba(21, 56, 53, 0.7), transparent 40%), radial-gradient(circle at 0% 100%, rgba(28, 5, 87, 0.7), transparent 40%)",
+                }}
+              />
+              <div className="absolute inset-0 bg-black/20" />
+            </div> */}
           </MotionWrapper>
           <Heading
             as="h1"
@@ -38,6 +56,7 @@ const HeroLayout = React.forwardRef<HTMLDivElement, HeroLayoutType>(
             {heading}
           </Heading>
           <MotionWrapper>
+
             <div className="absolute bottom-0 -z-0 h-[66%] gradient-mask-b-[rgba(0,0,0,1.0)_60%,rgba(0,0,0,0.2)_85%]">
               <HeroImage src={heroImage.src} alt={heroImage.alt} />
             </div>
