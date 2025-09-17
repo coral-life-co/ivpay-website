@@ -58,7 +58,7 @@ export default function TogetherWithUsBlock() {
               Whether you are looking to de-risk your operations or seize the opportunities of the new climate economy, our team is ready to be your intelligence partner. Contact us to discuss your specific needs.
             </Text>
             <Button size="xl" asChild>
-              <Link href="https://app.carbonnexus.io/register">Get started</Link>
+              <Link href="https://calendly.com/suchada-hnpd/30min">Get started</Link>
             </Button>
           </div>
         </div>

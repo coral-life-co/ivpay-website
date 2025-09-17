@@ -38,7 +38,7 @@ export default function InvocingHeroBlock() {
                   ))}
               </StackedCardsFan>
               <Button asChild size="lg" variant="default">
-                <Link href="https://app.carbonnexus.io/register">
+                <Link href="https://calendly.com/suchada-hnpd/30min">
                   Get Started
                 </Link>
               </Button>

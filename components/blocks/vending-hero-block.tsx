@@ -41,7 +41,7 @@ export default function VendingHeroBlock() {
                   ))}
               </StackedCardsFan>
               <Button asChild size="lg" variant="default">
-                <Link href="https://app.carbonnexus.io/register">
+                <Link href="https://calendly.com/suchada-hnpd/30min">
                   Waitlist <Icon icon="ArrowUpRight" />
                 </Link>
               </Button>
