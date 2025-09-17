@@ -1,23 +1,18 @@
-import CoinsListBlock from "@/components/blocks/home-coins-list-block";
-import EasySafeFastBlock from "@/components/blocks/home-easy-safe-fast-block";
 import HomeHeroBlock from "@/components/blocks/home-hero-block";
-//import MerchantVideoBlock from "@/components/blocks/merchants-video-block";
-import OurProductsBlock from "@/components/blocks/home-our-products-block";
-import ReapTheBenfitsBlock from "@/components/blocks/reap-the-benefits-block";
-import TogetherWithUsBlock from "@/components/blocks/home-together-with-us-block";
+import ChallengeBlock from "@/components/blocks/challenge-block";
+import TechnologyBlock from "@/components/blocks/technology-block";
+import SolutionsBlock from "@/components/blocks/solutions-block";
+import CTABlock from "@/components/blocks/cta-block";
 
 
 export default function Home() {
   return (
     <main className="flex flex-col">
       <HomeHeroBlock/>
-      <OurProductsBlock/>
-      <EasySafeFastBlock/>
-      {/*
-      <ReapTheBenfitsBlock/>
-       */}
-      <CoinsListBlock/>
-      <TogetherWithUsBlock/>
+      <ChallengeBlock/>
+      <TechnologyBlock/>
+      <SolutionsBlock/>
+      <CTABlock/>
     </main>
   );
 }

@@ -33,8 +33,8 @@ type FooterType = {
 import { contact } from "@/components/data-providers/company-data-provider";
 
 export const footer = {
-  footerMenu: menu,
-  address: contact.address,
+  footerMenu: [],
+  address: "",
   socials: socialNames,
 };
 
@@ -120,19 +120,14 @@ const Footer = React.forwardRef<HTMLDivElement, FooterProp>(
             <MotionWrapper
               asDiv
               variants={staggerChildren}
-              className="mx-auto flex w-full max-w-md flex-col space-y-2 px-2 sm:col-span-2 sm:mx-0 sm:max-w-none sm:px-0 lg:col-span-1"
+              className="mx-auto flex w-full max-w-md flex-col space-y-2 px-2 sm:col-span-3 sm:mx-0 sm:max-w-none sm:px-0"
             >
-              <MotionWrapper asDiv className="flex w-full">
-                {/* FORM */}
-                <SubscriptionForm />
-              </MotionWrapper>
-              <MotionWrapper>
-                <SocialIconList socialsList={footer.socials} />
-              </MotionWrapper>
-              <MotionWrapper>
-                <p className="pt-2 text-xs text-muted-foreground sm:text-sm lg:pb-5 lg:pt-5">
-                  {footerProp.address}
-                </p>
+              <MotionWrapper asDiv className="flex flex-col space-y-2">
+                <Text>Contact: contact@carbonnexus.io</Text>
+                <div className="flex space-x-4">
+                  <Link url="/privacy" className="text-sm">Privacy Policy</Link>
+                  <Link url="https://linkedin.com/in/yourprofile" className="text-sm">LinkedIn</Link>
+                </div>
               </MotionWrapper>
             </MotionWrapper>
           </Container>

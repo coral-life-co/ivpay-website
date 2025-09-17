@@ -71,67 +71,23 @@ import { Logo } from "./logo";
 //TODO: Move menu structure to data-provider
 export const menu: MenuType = [
   {
-    id: "products",
-    label: "Products",
+    id: "solutions",
+    label: "Solutions",
     order: 1,
-    children: [...productsList],
+    url: "#solutions",
   },
-  /** 
-   * 
   {
-    id: "use_cases",
-    label: "Use Cases",
+    id: "technology",
+    label: "Our Technology",
     order: 2,
-    children: [
-      //TODO: add description
-      { id: "digital", label: "Digital Nomads", url: "/", order: 1 },
-      { id: "e_commerce", label: "E-Commerce Stores", url: "/", order: 2 },
-      { id: "freelancers", label: "Freelancers", url: "/", order: 3 },
-      { id: "restaraunts", label: "Restaurants", url: "/", order: 4 },
-      { id: "retail", label: "Retail stores", url: "/", order: 5 },
-    ],
+    url: "#technology",
   },
-  */
   {
-    id: "company",
-    label: "Company",
+    id: "about",
+    label: "About Us",
     order: 3,
-    children: [
-      {
-        id: "about",
-        label: "About us",
-        description: "See our mission and our team",
-        url: "/about",
-        order: 1,
-      },
-      { id: "ecosystem", label: "Ecosystem", url: "/ecosystem", description:"We're all changing the new era of cryptopayments", order: 2 },
-      //{ id: "press", label: "Press", url: "/", order: 3 },
-      { id: "privacy", label: "Privacy policy", url: "/privacy", order: 4 },
-      { id: "terms", label: "Terms of use", url: "/terms", order: 5 },
-      { id: "aml", label: "Anti-Money Laundering Policy", url: "/aml-policy", order: 6 },
-    ],
+    url: "#about",
   },
-  {
-    id: "help",
-    label: "Help",
-    order: 4,
-    children: [
-      
-      {
-        id: "demo",
-        label: "Schedule a demo",
-        url: "https://calendly.com/ivpay",
-        description: "Arrange a meeting with our sales team",
-        order: 1,
-      },
-       
-      { id: "developers", label: "Developers", description:"Get details of API and more", url: "https://docs.ivpay.io/", order: 2 },
-      { id: "faq", label: "FAQ", description: "Frequently asked questions", url: "https://help.ivpay.io/en/collections/2-getting-started", order: 3 },
-      { id: "support", label: "Support", description:"Find answers to your questions", url: "https://help.ivpay.io/", order: 4 },
-      { id: "contact", label: "Contact us", description: "Leave your contact and we will get back to you.", url: "/contact", order: 5 },
-    ],
-  },
-  { id: "pricing", label: "Pricing", order: 5, url: "/pricing", only: 'menuOnly' },
 ];
 
 const MenuDesktopItem = React.forwardRef<

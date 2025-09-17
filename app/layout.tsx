@@ -14,15 +14,15 @@ import { GleapInit } from "@/components/globals/gleap";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://ivpay.io'),
-  title: "IVPAY | Welcome to Your Gateway to Crypto Payments",
-  description: "IVPAY is an easy, safe, and fast way to accept crypto payments for retail, e-commerce, and vending machines. Our platform supports multiple cryptocurrencies, providing diverse payment options for your business. Discover over 100+ locations that accept cryptocurrency payments and start reaping the benefits of the crypto world today",
+  title: "CarbonNexus | The Intelligence Layer for ASEAN's Green Economy",
+  description: "CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine. Targeted solutions for sustainable agriculture, deforestation-free supply chains, and nature-based solutions.",
   openGraph: {
-    title: "IVPAY | Welcome to Your Gateway to Crypto Payments",
+    title: "CarbonNexus | The Intelligence Layer for ASEAN's Green Economy",
     description:
-    "IVPAY is an easy, safe, and fast way to accept crypto payments for retail, e-commerce, and vending machines. Our platform supports multiple cryptocurrencies, providing diverse payment options for your business. Discover over 100+ locations that accept cryptocurrency payments and start reaping the benefits of the crypto world today",
+    "CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine. Targeted solutions for sustainable agriculture, deforestation-free supply chains, and nature-based solutions.",
     type: "website",
-    url: "https://ivpay.io/",
-    siteName: "IVPAY"
+    url: "https://carbonnexus.io/",
+    siteName: "CarbonNexus"
   },
 };
 

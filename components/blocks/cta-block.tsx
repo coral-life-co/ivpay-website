@@ -23,19 +23,23 @@ const CTABlock: React.FC<React.HTMLAttributes<HTMLElement>> = ({className}) => {
               aria-hidden
               className="pointer-events-none absolute inset-0 z-0 gradient-mask-b-0"
             />
-            <Text className="leading-tighten z-10 mb-10 text-center text-3xl capitalize sm:text-4xl xl:text-6xl">
-              Become
-              <br aria-hidden />a part of
-              <br aria-hidden />
-              IVPAY
+            <Heading
+              as="h2"
+              size="64"
+              className="z-10 mb-6 text-center"
+            >
+              Become a Leader in the Green Economy
+            </Heading>
+            <Text className="z-10 mb-10 text-center text-lg max-w-3xl mx-auto">
+              Whether you are looking to de-risk your operations or seize the opportunities of the new climate economy, our team is ready to be your intelligence partner. Contact us to discuss your specific needs.
             </Text>
             <Button
               size="xl"
               asChild
               className="z-10 mx-auto max-w-min whitespace-nowrap"
             >
-              <Link href="https://app.ivpay.io/register">
-                Get started <Icon icon="ArrowUpRight" />
+              <Link href="#contact">
+                Schedule a Consultation <Icon icon="ArrowUpRight" />
               </Link>
             </Button>
           </div>

@@ -15,29 +15,24 @@ export default function HomeHeroBlock() {
         <HeroLayout
           heading={
             <>
-              Digital Currency Solutions 
+              The Intelligence Layer
               <br />
-              for Every Business Need
+              for ASEAN's Green Economy
             </>
           }
-          heroImage={{ src: "/hero-pos.png", alt: "Two IVPAY POS machines" }}
+          heroImage={{ src: "/hero-pos.png", alt: "CarbonNexus Intelligence Platform" }}
           action={
             <>
-              <Button asChild size="lg" variant="white">
-                <Link href="https://calendly.com/ivpay">
-                  Schedule a demo <Icon icon="ArrowUpRight" />
-                </Link>
-              </Button>
               <Button asChild size="lg" variant="default">
-                <Link href="https://app.ivpay.io/register">
-                  Get Started <Icon icon="ArrowUpRight" />
+                <Link href="#solutions">
+                  Explore Our Solutions <Icon icon="ArrowUpRight" />
                 </Link>
               </Button>
             </>
           }
           text={
             <>
-              Our terminals are just the beginning. We offer a complete set of tools for integrating digital currencies, including payment gateways, analytics, and custom solutions, to simplify crypto payments for businesses of all sizes.
+              CarbonNexus provides verifiable data for climate finance, compliance, and resilience—powered by our proprietary Klimata™ Intelligence Engine.
             </>
           }
         />

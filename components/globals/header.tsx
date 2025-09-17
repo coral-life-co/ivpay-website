@@ -44,21 +44,9 @@ const Header = React.forwardRef<
           <>
             <MenuDesktop />
             <div className="pointer-events-auto flex justify-end space-x-2 lg:w-60 ">
-                <Button asChild variant="white">
-                  {/*//TODO: MAKE IT VAR */}
-              <Link href="https://app.ivpay.io/login">
-                  Log In
-              </Link>
-                  </Button>
-                <Button asChild>
-              <Link href="https://app.ivpay.io/register">
-                  Sign Up
-              </Link>
-                  </Button>
-            </div>
-          </>
+                <Link href="#contact" className="w-full">
         ) : isMobile === false ? (
-          <MenuMobile />
+                    Contact
         ) : null}
       </Container>
     </header>

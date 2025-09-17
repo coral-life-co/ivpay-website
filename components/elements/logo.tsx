@@ -1,9 +1,10 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 
-import LogoFull from '@/resources/logo/logo-full.svg'
-import LogoMedium from '@/resources/logo/IVPAY_logo_medium.svg'
-import LogoSmall from '@/resources/logo/logo-small.svg'
+// Placeholder for CarbonNexus logo - will be replaced with actual logo files
+// import LogoFull from '@/resources/logo/carbonnexus-logo-full.svg'
+// import LogoMedium from '@/resources/logo/carbonnexus-logo-medium.svg'
+// import LogoSmall from '@/resources/logo/carbonnexus-logo-small.svg'
 
 type LogoProps = React.SVGAttributes<SVGAElement> & {
   size?: "small" | "medium" | "full";
@@ -14,17 +15,24 @@ type LogoProps = React.SVGAttributes<SVGAElement> & {
 const Logo = React.forwardRef<SVGElement, LogoProps>(
   ({ className, size = "medium", color = "color", ...props }, forwardRef) => {
 
-    let Logo;
+    // Temporary text-based logo until SVG files are provided
+    return (
+      <div className={cn("h-full flex items-center font-bold text-accent", className)} ref={forwardRef} {...props}>
+        CarbonNexus
+      </div>
+    );
 
-    if (size === "full") {
-        Logo = LogoFull;
-    } else if (size === "medium") {
-        Logo = LogoMedium;
-    } else {
-        Logo = LogoSmall;
-    }
+    // Uncomment when actual logo files are available:
+    // let LogoComponent;
+    // if (size === "full") {
+    //     LogoComponent = LogoFull;
+    // } else if (size === "medium") {
+    //     LogoComponent = LogoMedium;
+    // } else {
+    //     LogoComponent = LogoSmall;
+    // }
 
-    return <Logo className={cn("h-full w-auto fill-accent ", className)} ref={forwardRef} {...props}/>
+    // return <LogoComponent className={cn("h-full w-auto fill-accent ", className)} ref={forwardRef} {...props}/>
    
   },
 );

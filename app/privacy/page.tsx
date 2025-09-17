@@ -3,15 +3,15 @@ import PrivacyBlock from "@/components/blocks/privacy-block";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IVPAY | Privacy Policy",
+  title: "CarbonNexus | Privacy Policy",
   description:
-    "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+    "Privacy Policy for CarbonNexus - The Intelligence Layer for ASEAN's Green Economy",
     openGraph: {
-      title: "IVPAY | Privacy Policy",
+      title: "CarbonNexus | Privacy Policy",
       description:
-        "Learn about IVPAY, a leading crypto payment system for retail, e-commerce, and vending machines. With active merchants across 10+ countries, we're on a mission to make instant crypto transactions easy and accessible for everyone",
+        "Privacy Policy for CarbonNexus - The Intelligence Layer for ASEAN's Green Economy",
       type: "website",
-      url: "https://ivpay.io/privacy",
+      url: "https://carbonnexus.io/privacy",
     },
     twitter: {
       card: "summary_large_image",
